@@ -15,12 +15,19 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
 
+    public static bool playerCreated;
+
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody2D>();
     }
-    
+
+    private void Start()
+    {
+        playerCreated = true;
+    }
+
     // Update is called once per frame
     void Update()
     {
