@@ -7,10 +7,12 @@ public class GoToScene : MonoBehaviour
 {
     public string sceneName = "New Scene name here";
 
+    public string uuid;
+
     public bool isAutomatic;
     private bool manualEnter;
     
-    // AUTOMATIC telleport
+    // AUTOMATIC teleport
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "Player")
@@ -39,6 +41,18 @@ public class GoToScene : MonoBehaviour
         if (!isAutomatic && !manualEnter)
         {
             manualEnter = Input.GetButtonDown("Fire1");
+        }
+    }
+
+    private void Teleport (string objName)
+    {
+        if (objName == "Player")
+        {
+            if (isAutomatic || (!isAutomatic && manualEnter))
+            {
+                FindObjectOfType<PlayerController>().nextUuid = uuid;
+                SceneManager.LoadScene(sceneName);
+            }
         }
     }
 }
