@@ -18,6 +18,13 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float timeToMakeStep;
     private float timeToMakeStepCounter; //Time since the last step taken by the enemy
 
+    [Tooltip("If enemy movement is not random, enemyDirections needs to have at least two elements")]
+    [SerializeField] private bool hasRandomMove;
+
+    [Tooltip("Directions the enemy will follow to complete a path. The idea is that it should be cyclical.Components must be - 1, 0 or 1")]
+    [SerializeField] private Vector2[] enemyDirections;
+    private int indexDirection;
+
     // Start is called before the first frame update
     private void Start()
     {

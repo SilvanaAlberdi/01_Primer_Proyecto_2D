@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Village.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/ChurchExterior.unity
+    guid: 296143b37fc59d24b9a74f2c34d8ab45
+  - enabled: 1
+    path: Assets/Scenes/Interiors.unity
+    guid: 846a02a4d3858074dae9d6e0cc52c53b
   m_configObjects: {}
