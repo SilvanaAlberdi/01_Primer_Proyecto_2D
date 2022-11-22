@@ -52352,6 +52352,38 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1731718252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1734598849971150665, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
+  m_PrefabInstance: {fileID: 1734598850762609237}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1731718253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731718252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8455f2d6bef9f4b8f67ddf7f7510b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  timeToRevivePlayer: 0
+--- !u!114 &1731718260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731718252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fd201fd9d045e4db9ecd0bada2539c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
 --- !u!1 &1950101755
 GameObject:
   m_ObjectHideFlags: 0
@@ -54522,9 +54554,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3852426015332230850, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3852426015332230850, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1734598849971150665, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
       propertyPath: m_Name
       value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734598849971150665, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734598849971150665, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1734598849971150666, guid: a0c280d8fea0de3438df44a48e33a664, type: 3}
       propertyPath: m_RootOrder
