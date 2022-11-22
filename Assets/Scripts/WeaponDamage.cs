@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class WeaponDamage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int damage;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        // if (other.gameObject.CompareTag("Enemy"))
+        {
+            // other.gameObject.GetComponent<HealthManager>().DamageCharacter(damage);
+        }
     }
 
     // Update is called once per frame
