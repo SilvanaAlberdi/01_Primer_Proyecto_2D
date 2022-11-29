@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapons_0
+      name: sword1
       rect:
         serializedVersion: 2
         x: 0
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_1
+      name: sword2
       rect:
         serializedVersion: 2
         x: 5
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_2
+      name: sword3
       rect:
         serializedVersion: 2
         x: 10
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_3
+      name: shield2
       rect:
         serializedVersion: 2
         x: 17
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_4
+      name: shield3
       rect:
         serializedVersion: 2
         x: 25
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_5
+      name: knive1
       rect:
         serializedVersion: 2
         x: 0
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_6
+      name: knive2
       rect:
         serializedVersion: 2
         x: 5
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_7
+      name: knive3
       rect:
         serializedVersion: 2
         x: 10
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_8
+      name: shield1
       rect:
         serializedVersion: 2
         x: 17
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_9
+      name: axe1
       rect:
         serializedVersion: 2
         x: 1
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_10
+      name: axe2
       rect:
         serializedVersion: 2
         x: 8
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_11
+      name: axe3
       rect:
         serializedVersion: 2
         x: 15
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      weapons_8: -552026312
-      weapons_5: 875070572
-      weapons_0: -497688135
-      weapons_10: 1702072906
-      weapons_2: -1353358893
-      weapons_6: -542310378
-      weapons_1: 1697548579
-      weapons_3: 1384788390
-      weapons_7: 1720009306
-      weapons_9: -1732283495
-      weapons_4: -201363764
-      weapons_11: -1606600531
+      sword1: -497688135
+      shield3: -201363764
+      knive1: 875070572
+      knive3: 1720009306
+      axe3: -1606600531
+      shield1: -552026312
+      sword2: 1697548579
+      axe2: 1702072906
+      knive2: -542310378
+      axe1: -1732283495
+      shield2: 1384788390
+      sword3: -1353358893
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
