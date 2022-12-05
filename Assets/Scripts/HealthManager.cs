@@ -15,7 +15,7 @@ public class HealthManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void DamageCharacter(int damage)
+    public void DamageCharacter(int damage)
     {
         currentHealth -= damage;
 

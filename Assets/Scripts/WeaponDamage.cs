@@ -10,8 +10,8 @@ public class WeaponDamage : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(other.gameObject);
-            // other.gameObject.GetComponent<HealthManager>().DamageCharacter(damage);
+            // Destroy(other.gameObject);
+            other.gameObject.GetComponent<HealthManager>().DamageCharacter(damage);
         }
     }
 
