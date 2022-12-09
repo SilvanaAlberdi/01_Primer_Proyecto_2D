@@ -9,7 +9,6 @@ public class StartPoint : MonoBehaviour
     private PlayerController player;
     [SerializeField] private Vector2 facingDirection;
 
-    // Start is called before the first frame update
     private void Start()
     {
         player = FindObjectOfType<PlayerController>();
